@@ -1,0 +1,15 @@
+@mixin BodyTitular{
+    background-image: linear-gradient(to right, rgb(25, 56, 25), black);
+}
+
+@mixin BodySuplente {
+    background-image: linear-gradient(to right, rgb(85, 81, 81), rgb(6, 73, 6));
+}
+
+.body_quienes_somos{
+    @include BodyTitular;
+}
+
+.body_principal{
+    @include BodySuplente;
+}

@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/* Import de variables */
+/* Variable para color de letras */
+/* Variables para el maps */
+/* Import de base */
+/* Extends: paquete de propiedades que voy a crear para utilizarlo en muchos lugares. Se crean con un placeholder. El placeholder es el símbolo de porcentaje (%).*/
+.body_quienes_somos {
+  background-image: linear-gradient(to right, rgb(25, 56, 25), black);
+}
+
+.body_principal {
+  background-image: linear-gradient(to right, rgb(85, 81, 81), rgb(6, 73, 6));
+}
+
+/* Import de componentes */
+/* HEADER :: INDEX*/
+.header_nav {
+  text-align: right;
+  font-size: 15px;
+  background-color: rgb(59, 187, 59);
+  padding: 10px;
+}
+
+.header_nav_a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
+
+.header_nav_a:hover {
+  transition: all 2s;
+  color: rgb(255, 255, 255);
+}
+
+.header_div_h1 {
+  display: flex;
+  width: 40%;
+  overflow: hidden;
+}
+
+.header_img_h1 {
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.header_h1 {
+  font-size: 60px;
+  background-color: rgb(59, 187, 59);
+}
+
+.header_h1:hover {
+  transition: 2s;
+  color: rgb(59, 187, 59);
+  background-color: black;
+}
+
+/* Fin */
+/* Inicio :: Main INDEX */
+.main_size {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  padding: 15px;
+  justify-content: center;
+  background-color: black;
+  border: green solid 1px;
+}
+
+.main_img {
+  width: 450px;
+  height: 300px;
+  border: rgb(59, 187, 59) solid 1px;
+  animation-duration: 2s;
+  animation-name: imagenes;
+}
+
+@keyframes imagenes {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-bottom: 0%;
+  }
+}
+.main_p {
+  font-style: italic;
+  font-size: 17px;
+  color: rgb(59, 187, 59);
+  text-align: center;
+  margin-top: 35px;
+  animation-duration: 2s;
+  animation-name: texto;
+}
+
+@keyframes texto {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.main_p:hover {
+  color: rgb(9, 107, 9);
+}
+
+/* Inicio :: Main QUIENES SOMOS */
+.container_main {
+  width: 90%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin-top: 130px;
+  margin-left: 50px;
+  background-image: linear-gradient(to bottom, black, rgb(9, 63, 9));
+  border: rgb(59, 187, 59) double 5px;
+  overflow: scroll;
+}
+
+.div_main_one {
+  display: grid;
+  max-width: 60%;
+  margin-left: 200px;
+}
+
+.h2_main_one {
+  color: rgb(52, 168, 97);
+  font-size: 50px;
+  text-align: center;
+  font-family: impact;
+}
+
+.p_main_one {
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+  border: black double 5px;
+  background: rgb(59, 187, 59);
+  padding: 15px;
+  text-align: center;
+}
+
+.p_main_one:hover {
+  transition: 2s;
+  border: rgb(59, 187, 59) double 5px;
+  background: black;
+  color: rgb(59, 187, 59);
+}
+
+.div_main_two {
+  display: grid;
+  max-width: 60%;
+  margin-left: 200px;
+}
+
+.div_ul_main {
+  max-width: 50%;
+  display: grid;
+  margin-left: 120px;
+}
+
+.h3_ul {
+  color: rgb(52, 168, 97);
+  font-size: 50px;
+  font-family: impact;
+  text-align: center;
+}
+
+.a_ul_pirelli {
+  margin-top: 20px;
+  border: rgb(160, 150, 10) double 5px;
+}
+
+.a_ul_pirelli:hover {
+  transition: 1s;
+  border: rgb(252, 252, 5) double 7px;
+}
+
+.a_ul_marangoni {
+  border: blue double 5px;
+}
+
+.a_ul_marangoni:hover {
+  transition: 1s;
+  border: rgb(5, 11, 95) double 7px;
+}
+
+.a_ul_bandag {
+  border: rgb(98, 98, 190) double 5px;
+}
+
+.a_ul_bandag:hover {
+  transition: 1s;
+  border: rgb(121, 133, 236) double 7px;
+}
+
+/* Inicio :: Main PRODUCTOS */
+.h2_productos {
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+  font-family: Impact;
+  font-size: 60px;
+  animation-duration: 2s;
+  animation-name: productos;
+}
+
+@keyframes productos {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.p_productos {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  animation-duration: 5s;
+  animation-name: P_productos;
+}
+
+@keyframes P_productos {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.div_productos {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 20px;
+  animation-duration: 2s;
+  animation-name: neumaticos;
+}
+
+@keyframes neumaticos {
+  from {
+    margin-bottom: 5%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+.div_parrafo {
+  text-align: center;
+  margin-top: 15px;
+  animation-duration: 4s;
+  animation-name: parrafo_productos;
+}
+
+@keyframes parrafo_productos {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.div_parrafo:hover {
+  color: black;
+}
+
+.ultimo_parrafo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ultimo_parrafo:hover {
+  transition: 2s;
+  color: rgb(52, 168, 97);
+}
+
+/* Inicio :: Main CONTACTO */
+.div_container {
+  display: grid;
+  width: 75%;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.h2_one {
+  font-family: Impact;
+  color: black;
+}
+
+.p_one {
+  color: black;
+}
+
+.div_two {
+  margin-top: 50px;
+}
+
+form {
+  width: 450px;
+  border: 5px double black;
+  border-radius: 1em;
+  background: rgb(59, 187, 59);
+  margin: 0 auto;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+textarea {
+  width: 190px;
+  box-sizing: border-box;
+}
+
+.button {
+  margin-left: 190px;
+  list-style: none;
+}
+
+/* Inicio :: Main UBICACION */
+.h2_ubicacion {
+  font-family: Impact;
+  color: black;
+  width: 500px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.p_ubicacion {
+  color: black;
+  margin-left: 30px;
+}
+
+.iframe {
+  margin-left: 30px;
+  border: black solid 3px;
+  border-radius: 1em;
+}
+
+.p_ubicacion_final {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  color: black;
+  margin-top: 35px;
+}
+
+/* Inicio :: Footer de Index*/
+.footer_p {
+  font-style: italic;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  margin-top: 30px;
+}
+.footer_p:hover {
+  transition: 2s;
+  color: rgb(81, 255, 81);
+}
+
+/* Inicio :: Footer de Quienes Somos*/
+.footer {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.footer_a {
+  text-decoration: none;
+  color: rgb(52, 168, 97);
+}
+.footer_a:hover {
+  transition: 2s;
+  color: rgb(16, 168, 123);
+}
+
+.body_quienes_somos {
+  background-image: linear-gradient(to right, rgb(25, 56, 25), black);
+}
+
+.body_principal {
+  background-image: linear-gradient(to right, rgb(85, 81, 81), rgb(6, 73, 6));
+}
+
+/*# sourceMappingURL=style.css.map */

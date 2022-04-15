@@ -1,0 +1,13 @@
+/* Import de variables */ 
+@import "./variables/variables";
+
+/* Import de base */ 
+@import "./base/extends";
+@import "./base/mixin";
+
+/* Import de componentes */
+@import "./componentes/header";
+@import "./componentes/main";
+@import "./componentes/footer";
+@import "./componentes/body";
+

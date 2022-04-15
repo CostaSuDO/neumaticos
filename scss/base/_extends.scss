@@ -1,0 +1,45 @@
+/* Extends: paquete de propiedades que voy a crear para utilizarlo en muchos lugares. Se crean con un placeholder. El placeholder es el símbolo de porcentaje (%).*/ 
+
+%disposicion-flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%disposicion-vertical{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+%disposicion-horizontal{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+%disposicion_grid{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+%disposicion-container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+%disposicion-container-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+    
+
+
+

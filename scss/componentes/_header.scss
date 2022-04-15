@@ -1,0 +1,47 @@
+/* HEADER :: INDEX*/ 
+
+.header_nav{
+    text-align: right;
+    font-size: 15px;
+    background-color: rgb(59, 187, 59);
+    padding: 10px;
+}
+
+.header_nav_a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family:monospace;
+}
+
+.header_nav_a:hover{
+    transition: all 2s;
+    color: rgb(255, 255, 255);
+}
+
+
+.header_div_h1{
+    display:flex;
+    width: 40%;
+    overflow:hidden;
+}
+
+.header_img_h1{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.header_h1{
+    font-size: 60px;
+    background-color:rgb(59, 187, 59);
+}
+
+.header_h1:hover{
+    transition: 2s;
+    color:rgb(59, 187, 59);
+    background-color: black;
+}
+
+/* Fin */
