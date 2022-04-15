@@ -388,6 +388,11 @@ textarea {
   color: rgb(16, 168, 123);
 }
 
+.nav_footer {
+  display: flex;
+  justify-content: center;
+}
+
 .body_quienes_somos {
   background-image: linear-gradient(to right, rgb(25, 56, 25), black);
 }
