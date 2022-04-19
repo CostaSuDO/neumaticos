@@ -1,0 +1,65 @@
+@media (max-width: 768px){
+    .main_size{
+        max-width: 100%;
+    }
+  
+    .header_nav{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .header_nav a{
+      border: solid black 1px;
+      margin-right: 0;
+    }
+  
+    .header_div_h1{
+      overflow: visible;
+    }
+  
+    .container_main{
+      margin: 0 auto;
+      overflow: visible;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  
+    .div_main_one, .div_main_two, .div_ul_main{
+      margin-left: 0;
+    }
+  
+    .footer{
+      margin-top: 50px;
+    }
+  
+    .div_productos{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .div_container{
+      margin: 20px auto;
+    }
+  
+    form{
+      width:100%;
+    }
+  
+    .button button {
+      width: 100%;
+    }
+    .button {
+      margin: 0;
+    }
+  
+    .iframe{
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+}
